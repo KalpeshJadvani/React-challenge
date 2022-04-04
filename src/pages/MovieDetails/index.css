@@ -1,0 +1,9 @@
+
+.container{
+    margin-top: 20px;
+    display: flex;
+}
+.imageBox{
+    width: 300px;
+    min-width: 300px;
+}

@@ -20,6 +20,9 @@ export const Home = () => {
 
   const filterData = filterMovies();
 
+  if (error) {
+    return(<NoData msg={error}/>);
+  }
 
   return (
     <>
@@ -35,6 +38,7 @@ export const Home = () => {
                 key={movie.id}
                 imageURL={`${IMG_BASE_URL}original/${movie.poster_path}`}
                 name={movie.title}
+                id={movie.id}
                 vote_average={movie.vote_average}
                 vote_count={movie.vote_count}
               />
