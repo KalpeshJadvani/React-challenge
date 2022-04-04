@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.searchInput {
+  height: 30px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  min-width: 250px;
+  margin-right: 50px;
+  margin-left: auto;
+}
